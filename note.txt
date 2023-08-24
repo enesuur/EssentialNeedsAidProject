@@ -1,0 +1,6 @@
+Kıyafet 
+Beden:
+Cinsiyet:
+Kıyafet Çeşit:
+Renk:
+Kullanım Durumu:

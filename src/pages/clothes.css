@@ -1,0 +1,19 @@
+
+.clothes {
+    display: flex;
+    flex-direction: column;
+}
+
+.clothes.container  .section-title {
+    padding: 16px 12px !important;
+    font-size: 1.5em;
+    font-weight: 450;
+    letter-spacing: 1;
+    margin-top: 72px;
+}
+
+.clothe-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-gap: 24px; 
+  }

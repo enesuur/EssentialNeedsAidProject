@@ -1,0 +1,83 @@
+.bills {
+    display: flex;
+    flex-direction: column;
+}
+
+.bill-option {
+    margin: 48px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    width: 100%;
+    min-height: 300px;
+    max-height: auto;
+    background-color: white;
+}
+
+section h1 {
+    padding: 16px 12px !important;
+    font-size: 1.5em;
+    font-weight: 450;
+    letter-spacing: 1;
+    margin-top: 72px
+}
+
+.bill-option .apply-bill,
+.bill-option .donate-bill {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    height: 100%;
+    padding: 16px 12px !important;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+.bill-option .apply-bill:hover,
+.bill-option .donate-bill:hover {
+    background-color: #800020;
+    color: #fff;
+    border: 2px solid #800020;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    cursor: pointer;
+}
+
+.bill-option .apply-bill svg,
+.bill-option .donate-bill svg {
+    fill: white;
+    stroke: black;
+    width: 96px;
+    height: 96px;
+}
+
+.bill-option .apply-bill p,
+.bill-option .donate-bill p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+.bill-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-gap: 24px;
+}
+
+@media (max-width: 768px) {
+    .bill-option {
+        grid-template-columns: repeat(1,1fr);
+
+
+    }
+    .bill-cards {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+  

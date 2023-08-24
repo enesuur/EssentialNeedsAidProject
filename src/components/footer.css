@@ -1,0 +1,42 @@
+/* Footer Container */
+.footer {
+  background-color: #800020;
+  color: #fff;
+  padding: 32px 16px !important;
+}
+
+.footer-content {
+  justify-content: center;
+  align-items: center;
+  flex: 1  1 25% ;
+  flex-wrap: wrap;
+
+}
+
+.footer-content p{
+  padding: 0px 4px ;
+  font-size: 1em;
+  letter-spacing: 1;
+
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+
+}
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 8px 4px !important;
+  font-size: 0.75em;
+  border-radius: 4px;
+}
+
+.footer-links a:hover {
+  color: #800020;
+  background-color: whitesmoke;
+  /* Change to your preferred link hover color */
+}

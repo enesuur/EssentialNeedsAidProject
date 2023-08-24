@@ -1,0 +1,144 @@
+.home .announcement {
+    width: 100%;
+    margin-top: 3em;   
+    font-size: 1em;
+    letter-spacing: 1;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 12px !important;
+    border-radius: 8px;
+    background-color: #800020;
+    color: #fff;
+
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.faq {
+    width: 100%;
+    margin: 48px 0 !important;
+}
+
+.showcase .lastadded-title {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+.last-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.site-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
+.site-info h2 {
+    font-size: 1.5rem;
+    font-weight: 450;
+}
+
+.site-info .site-analytics {
+    display: flex;
+    align-items: center;
+
+}
+
+.site-info .usage-info {
+    display: flex;  
+    align-items: center;
+    column-gap: 24px;
+    margin: 12px 0 !important;
+}
+
+.site-info .site-analytics {
+    display: flex;  
+    align-items: center;
+    column-gap: 24px;
+    margin: 12px 0 !important;
+}
+
+.site-info .usage-info .clothe-analytics,
+.site-info .usage-info .bill-analytics,
+.site-info .usage-info .scholarship-analytics,
+.site-info .site-analytics .site-likes,
+.site-info .site-analytics .site-visiters,
+.site-info .site-analytics .site-shares {
+    flex: 1 1 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 12px 16px !important;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius:8px ;
+    height: 250px;
+}
+
+
+
+.site-info .usage-info .clothe-analytics svg,
+.site-info .usage-info .bill-analytics svg,
+.site-info .usage-info .scholarship-analytics svg,
+.site-info .site-analytics .site-likes svg,
+.site-info .site-analytics .site-visiters svg,
+.site-info .site-analytics .site-shares svg {
+    width: 24px;
+    height: 24px;
+}
+
+.site-info .usage-info .clothe-analytics p,
+.site-info .usage-info .bill-analytics p,
+.site-info .usage-info .scholarship-analytics p,
+.site-info .site-analytics .site-likes p,
+.site-info .site-analytics .site-visiters p,
+.site-info .site-analytics .site-shares p {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* Scholarship button styles */
+.site-info .usage-info .clothe-analytics:hover,
+.site-info .usage-info .bill-analytics:hover,
+.site-info .usage-info .scholarship-analytics:hover,
+.site-info .site-analytics .site-likes:hover,   
+.site-info .site-analytics .site-visiters:hover,
+.site-info .site-analytics .site-shares:hover {
+    background-color: #800020;
+    color: #fff;
+    border: 2px solid #800020;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .site-info .site-analytics{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 24px;
+        
+    }
+    .site-info .usage-info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 24px;
+    }
+  }
+
