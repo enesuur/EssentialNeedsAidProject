@@ -1,7 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web platform developed with HTML, CSS, and React.js, serving as a platform where users can seek or offer support for basic needs such as clothing, invoices, and garments through the interface. It facilitates connections between individuals in need and those willing to provide support.
 
+
+## Demo
+https://essentialneedsaid.netlify.app/
 ## Available Scripts
 
 In the project directory, you can run:
